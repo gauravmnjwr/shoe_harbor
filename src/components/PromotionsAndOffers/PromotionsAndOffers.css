@@ -1,0 +1,54 @@
+.promotions-and-offers {
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+  font-size: 24px;
+  transition: transform 0.3s ease-in-out;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+h3 {
+  color: orange;
+  font-size: 18px;
+}
+
+.promotion-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.promotion-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+}
+
+.promotion-slide {
+  font-style: italic;
+}
+
+.promotion-slide:hover {
+  background-color: rgb(237, 203, 140);
+  border-radius: 8px;
+}
+
+.promotion-slide h3:hover {
+  color: black;
+}

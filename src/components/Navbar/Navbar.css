@@ -1,0 +1,89 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f86f03;
+  padding: 10px 20px;
+  z-index: 100;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+
+.center-section {
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+
+.center-section ul {
+  list-style-type: none;
+  padding: 0;
+  z-index: 100;
+}
+
+.center-section li {
+  display: inline-block;
+  margin-right: 20px;
+  cursor: pointer;
+  z-index: 100;
+  font-size: 15px;
+  /* color: whitesmoke; */
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+
+.login-button,
+.signup-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  z-index: 100;
+}
+
+.login-button:hover,
+.signup-button:hover {
+  background-color: #333;
+  color: black;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  border-radius: 8px;
+  flex-direction: column;
+  z-index: 100;
+}
+
+.center-section li:hover .submenu {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.submenu li {
+  background-color: white;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  z-index: 100;
+}
+
+.submenu li:hover {
+  background-color: orange;
+}
+
+.logo {
+  height: 70px;
+}

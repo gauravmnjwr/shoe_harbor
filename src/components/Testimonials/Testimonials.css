@@ -1,0 +1,39 @@
+.testimonials-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  column-gap: 20px;
+}
+
+.testimonials-main > div {
+  width: 45%;
+  height: 300px;
+}
+
+.user-details img {
+  width: 80px;
+}
+.user-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f86f03;
+  border-radius: 12px;
+}
+
+.user-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.testimonials-container h2 {
+  padding-left: 20px;
+}
+
+.star-img img {
+  width: 10px;
+}
